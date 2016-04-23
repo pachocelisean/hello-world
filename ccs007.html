@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Fig. 5.2: embedded.html -->
+ <!-- Embedded style sheets. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+ <title>Style Sheets</title>
+
+<style type = "text/css">
+ body { font-family: arial, sans-serif }
+ div.menu { font-weight: bold;
+  color: white;
+   border: 2px solid #225599;
+    text-align: center;
+     width: 10em;
+      background-color: #225599 }
+  div.menu:hover a { display: block }
+  div.menu a { display: none;
+               border-top: 2px solid #225599;
+               width: 10em;
+                text-decoration: none;
+              color: black }
+     div.menu a:hover { background-color: #dfeeff }
+</style>
+
+</head>
+
+
+<body>
+ <!-- this class attribute applies the .special style -->
+
+ <div class = "menu">Menu
+ <a href = "#">Home</a>
+ <a href = "#">News</a>
+ <a href = "#">Articles</a>
+ <a href = "#">Blog</a>
+ <a href = "#">Contact</a>
+ </div>
+
+
+ 
+ <h1 class = "special">Deitel &amp; Associates, Inc.</h1>
+
+ <p>Deitel &amp; Associates, Inc. is an internationally
+ recognized corporate training and publishing organization
+ specializing in programming languages, Internet/World
+ Wide Web technology and object technology education.
+ The company provides courses on Java, C++, Visual Basic,
+ C#, C, Internet and World Wide Web programming, Object
+ Technology, and more.</p>
+
+ <h1 class = "red" >Clients</h1>
+ <p class = "special"> The company's clients include many
+ <em>Fortune 1000 companies</em>, government agencies,
+ branches of the military and business organizations.
+ Through its publishing partnership with Prentice Hall,
+ Deitel &amp; Associates, Inc. publishes leading-edge
+ programming textbooks, professional books, interactive
+ web-based multimedia Cyber Classrooms, satellite
+ courses and World Wide Web courses.</p>
+ </body>
+</html>
+
+
+
