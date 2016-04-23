@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Fig. 5.2: backgd.htm -->
+ <!-- Embedded style sheets. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+ <title>Style Sheets</title>
+
+ <!-- this begins the style sheet section -->
+	<style type = "text/css">
+	 
+			body { background-image: url(logo.gif);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-color: Pink }
+
+			p { font-size: 18pt;
+			color: #1144AA; font-family: arial, sans-serif; }
+			.dark { font-weight: bold } 
+	</style>
+
+</head>
+
+
+<body>
+ <p>
+ This example uses the background-image,
+ background-position and background-attachment
+ styles to place the <span class = "dark">OnRoad</span> logo in the bottom,
+ right corner of the page. Notice how the logo
+ stays in the proper position when you resize the
+ browser window. The background-color fills in where
+ there is no image.
+ 
+ 
+ </p>
+ <hr/>
+ 
+ <div style = "width: 20%">Here is some
+ 
+ text that goes in a box which is
+19 set to stretch across twenty percent
+20 of the width of the screen.</div>
+ <hr/>
+ 
+ <div style = "width: 80%; text-align: center">
+ Here is some CENTERED text that goes in a box
+ which is set to stretch across eighty percent of
+ the width of the screen.</div>
+
+ <hr/>
+ 
+ 
+ <div style = "width: 20%; height: 150px; overflow: scroll">
+ This box is only twenty percent of
+ the width and has a fixed height.
+ What do we do if it overflows? Set the
+ overflow property to scroll!</div>
+
+ 
+ </body>
+</html>
+
+
+

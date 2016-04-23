@@ -1,0 +1,28 @@
+/* Fig. 5.4: styles.css */
+/* External stylesheet */
+
+
+ /* body {   font-family: arial, helvetica, sans-serif; color: DodgerBlue  } */
+
+  
+  body { background-image: url(logo.gif);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-color: Pink }
+  
+  a.nodec { text-decoration: none }
+
+  a:hover { text-decoration: underline }
+
+  li em { font-weight: bold }
+
+ h1, em { text-decoration: underline }
+
+ ul { margin-left: 20px }
+
+ ul ul { font-size: .8em; }
+
+ hr {
+  color: white;
+}
